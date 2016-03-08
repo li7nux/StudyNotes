@@ -14,3 +14,9 @@
   yum clean all
   yum makecache
   ```
+4. 或者使用 阿里源
+
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+yum makecache
+```  
