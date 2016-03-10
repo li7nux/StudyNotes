@@ -10,3 +10,4 @@
   + [1.2 竞态条件与临界区](chapter01-thread/2_Race Conditions and Critical Sections.md)
   + [1.3 线程安全与共享资源](chapter01-thread/3_Thread Safety and Shared Resources.md)
   + [1.4 线程安全及不可变性](chapter01-thread/4_Thread Safety and Immutability.md)
+  + [1.5 Java 内存模型](chapter01-thread/5_Java Memory Model.md)
