@@ -15,8 +15,31 @@
   yum makecache
   ```
 4. 或者使用 阿里源
-
 ```
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 yum makecache
 ```  
+5. 问题 : linux下yum命令出现 `Loaded plugins: fastestmirror Determining fastest mirrors`
+
+  解决方案 :
+  fastestmirror是yum的一个加速插件，这里是插件提示信息是插件不能用了。
+
+  不能用就先别用呗，禁用掉，先yum了再说。
+
+  **1.修改插件的配置文件**
+
+  ```
+  # vi  /etc/yum/pluginconf.d/fastestmirror.conf
+  ```
+  ```
+  enabled = 1//由1改为0，禁用该插件
+  ```
+
+  **2.修改yum的配置文件**
+
+  ```
+  # vi /etc/yum.conf
+
+  plugins=1//改为0，不使用插件
+
+  ```
