@@ -8,6 +8,12 @@ CentOS 自带`curl`，因此可以去JDK官网获取linux版本的下载链接�
 $ curl -O http://download.oracle.com/otn-pub/java/jdk/8u71-b15/jdk-8u71-linux-x64.tar.gz?AuthParam=1453279224_daddedf43da16d54a8cd0d66a74276ca
 ```
 
+今天发现不灵光了，那就换 `wget` 吧
+
+```
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz"
+```
+
 ![curl-download](../../pic/linux/chapter01/3-01.jpg)
 
 **2. 重命名**
