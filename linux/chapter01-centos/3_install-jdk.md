@@ -73,3 +73,35 @@ $ update-alternatives --config java
 ```
 
 ![curl-download](../../pic/linux/chapter01/3-04.jpg)
+
+具体设置如下 :
+
+```
+# alternatives --install /usr/bin/java java /opt/jdk1.8.0_72/bin/java 2
+
+alternatives --config java
+
+[vagrant@localhost opt]$ sudo alternatives --config java
+
+There is 1 program that provides 'java'.
+
+  Selection    Command
+-----------------------------------------------
+*+ 1           /opt/jdk1.8.0_72/bin/java
+
+Enter to keep the current selection[+], or type selection number: 1
+
+[vagrant@localhost opt]$ sudo alternatives --install /usr/bin/jar jar /opt/jdk1
+.8.0_72/bin/jar 2
+[vagrant@localhost opt]$ sudo alternatives --install /usr/bin/javac javac /opt/
+jdk1.8.0_72/bin/javac 2
+[vagrant@localhost opt]$ sudo alternatives --set jar /opt/jdk1.8.0_72/bin/jar
+[vagrant@localhost opt]$ sudo alternatives --set javac /opt/jdk1.8.0_72/bin/javac
+[vagrant@localhost opt]$ java -version
+java version "1.8.0_72"
+Java(TM) SE Runtime Environment (build 1.8.0_72-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.72-b15, mixed mode)
+
+```
+
+参考 : http://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/
