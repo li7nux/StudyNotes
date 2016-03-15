@@ -1,4 +1,4 @@
-### Mysql 学习笔记
+### Mysql & MariaDB 学习笔记
 
 **目录**
 
@@ -6,3 +6,5 @@
   + [mysql 远程连接](chapter00/1.md)
 2. 第 1 章 快速入门
   + 
+3. 第 2 章 安装
+  + [2.1 MariaDB 安装](chapter02/1. mariadb install.md)
