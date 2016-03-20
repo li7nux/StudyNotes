@@ -5,7 +5,7 @@
 0. Java 注释规范
   + [Java 注释规范](0. Java comment.md)
 1. 多线程
-  + [1.0 介绍](0)
+  + [1.0 介绍](chapter01-thread/0_introduction.md)
   + [1.1 创建多线程的方法](chapter01-thread/1_create-thread.md)
   + [1.2 竞态条件与临界区](chapter01-thread/2_Race Conditions and Critical Sections.md)
   + [1.3 线程安全与共享资源](chapter01-thread/3_Thread Safety and Shared Resources.md)
