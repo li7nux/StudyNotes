@@ -10,4 +10,7 @@
   + [mysql](databases/mysql/readme.md)
   + [redis](databases/redis/readme.md)
 
-4. [利器](tools/index.md)
+4. [利器](tools/)
+
+5. [Web](web/)
+  + [Nginx](web/nginx.md)
