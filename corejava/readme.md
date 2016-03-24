@@ -13,3 +13,5 @@
   + [1.5 Java 内存模型](chapter01-thread/5_Java Memory Model.md)
   + [1.6 Java 同步块](chapter01-thread/6_Java Synchronized Blocks.md)
   + [1.7 线程通信](chapter01-thread/7_Thread Signaling.md)
+  + [1.8 ThreadLocal](chapter01-thread/8_ThreadLocal.md)
+  + [1.9 DeadLock](chapter01-thread/9_DeadLocal.md)
