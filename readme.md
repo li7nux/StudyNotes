@@ -17,3 +17,5 @@
 5. [Web](web/)
   + [Nginx](web/nginx.md)
   + [Gradle](web/gradle/)
+6. [Python](python/)
+  + [Python 基础](python/base/)
