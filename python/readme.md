@@ -1,4 +1,16 @@
 # Python 学习笔记
 
-+ [Python 基础](Learn the Basics)
-+ [高级特性](Advanced Tutorials)
++ [1. Python 基础](Learn the Basics)
+  + 1.1 [hello world](Learn the Basics/1. Hello world.md)
+  + 1.2 [类型和变量](Learn the Basics/2. Variables and Types.md)
+  + 1.3 [Lists](Learn the Basics/3. Lists.md)
+  + 1.4 [基本运算](Learn the Basics/4. Basic Operators.md)
+  + 1.5 [格式化字符串](Learn the Basics/5. String Formatting.md)
+  + 1.6 [基本字符串操作](Learn the Basics/6. Basic String Operations.md)
+  + 1.7 [条件判断](Learn the Basics/7. Conditions.md)
+  + 1.8 [循环](Learn the Basics/8. Loops.md)
+  + 1.9 [函数](Learn the Basics/9. Functions.md)
+  + 1.10 [类和对象](Learn the Basics/Learn the Basics/10. Classes and Objects.md)
+  + 1.11 [字典](Learn the Basics/11. Dictionaries.md)
+  + 1.12 [模块和包](Learn the Basics/12. Modules and Packages.md)
++ [2. 高级特性](Advanced Tutorials)
