@@ -11,12 +11,14 @@
 3. [Databases](databases/)
   + [mysql](databases/mysql/)
   + [redis](databases/redis/)
+  + [MongoDB](databases/mongo/)
 
 4. [利器](tools/)
 
 5. [Web](web/)
   + [Nginx](web/nginx.md)
   + [Gradle](web/gradle/)
+
 6. [Python](python/)
   + [Python 基础](python/Learn the Basics/)
   + [Python 高级特性](python/Advanced Tutorials)
