@@ -14,3 +14,11 @@
   + [2.7 循环](chapter02/7.md)
   + [2.8 Map 和 Set](chapter02/8.md)
   + [2.9 iterable](chapter02/9.md)
+3. 第 3 章 函数
+  + [3.1 函数定义和调用](chapter03/1.md)
+  + [3.2 变量和作用域](chapter03/2.md)
+  + [3.3 方法](chapter03/3.md)
+  + [3.4 高阶函数](chapter03/4.md)
+  + [3.5 闭包](chapter03/5.md)
+  + [3.6 箭头函数](chapter03/6.md)
+  + [3.7 generate](chapter03/7.md)
